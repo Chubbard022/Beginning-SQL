@@ -1,3 +1,6 @@
 CREATE TABLE movies (id INTEGER PRIMARY KEY, name TEXT, release_year INTEGER);
 INSERT INTO movies VALUES (1, "Avatar", 2009);
 INSERT INTO movie VALUES (2, "harry potter",2001);
+
+SELECT * FROM movies ORDER BY release_year;
+
